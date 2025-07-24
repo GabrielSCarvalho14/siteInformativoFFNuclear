@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #4682B4;
+    width: 100%;
+    height: fit-content;
+}
+
+main {
+    background-color: whitesmoke;
+    width: 100%;
+    height: fit-content;
+}
+
+footer {
+    background-color: #708090;
+    width: 100%;
+    height: fit-content;
+}
+
+title {
+    display: none;
+}
+
+#titulo {
+    font-family: "Open Sans", sans-serif;
+    font-size: 60px;
+    padding-left: 1%;
+}
+
+#listaTopicos {
+    list-style-type: none;
+    padding-left: 4%;
+}
+
+.subtitulo {
+    font-family: "Open Sans", sans-serif;
+    font-size: 40px;
+    padding-left: 1%;
+}
+
+.topicos {
+    font-family: "Open Sans", sans-serif;
+    color: #4682B4;
+}
+
+.topicos:hover {
+    background-color: whitesmoke;
+}
+
+#caixaConteudo {
+    width: 100%;
+    overflow: hidden;
+}
+
+#caixaConteudo p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    width: 60%;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    background-color: #B0C4DE;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+#caixaConteudo p:nth-of-type(odd) {
+    margin-left: 3%;
+    margin-right: auto;
+    text-align: left;
+}
+
+#caixaConteudo p:nth-of-type(even) {
+    margin-right: 3%;
+    margin-left: auto;
+    text-align: right;
+}
+
+#caixaConteudo figure {
+    display: block;
+    width: 50%;
+    height: auto;
+    margin: 20px auto;
+
+    background-color: #B0C4DE;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#caixaConteudo figcaption {
+    font-size: 0.9em;
+    color: #333;
+    text-align: center;
+    margin-top: 5px;
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+
+#caixaConteudo figure img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 5px auto;
+}
+
+.textoFooter {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1%;
+}
+
+h2 {
+    font-family: "Open Sans", sans-serif;
+    padding-left: 2%;
+    padding-top: 1%;
+}
+
+#voltarAoTopoBtn {
+    position: fixed;
+    bottom: 3%;
+    right: 1%;
+    border: none;
+    padding: 1% 1%;
+    z-index: 999;
+}
+
+#voltarAoTopoBtn img {
+    width: 24px;
+    height: auto;
+    display: block;
+}
